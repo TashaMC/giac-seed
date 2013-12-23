@@ -6,13 +6,19 @@ The alternative starter template for ionic framework angular project (http://ion
 Installation
 =========
 
-1. Create your cordova app with [Cordova CLI](http://cordova.apache.org/docs/en/3.3.0/guide_cli_index.md.html#The%20Command-Line%20Interface).
+1. Create your cordova app with [Cordova CLI]
+(http://cordova.apache.org/docs/en/3.3.0/guide_cli_index.md.html#The%20Command-Line%20Interface)
 ```
+
 cordova create my-cordova-project com.example.mycordovaproject MyCordovaProject
+
 ```
-2. Install [grunt-cli](http://gruntjs.com/getting-started#installing-the-cli).
+2. Install [grunt-cli]
+(http://gruntjs.com/getting-started#installing-the-cli)
 ```
+
 npm install -g grunt-cli
+
 ```
 3. Download and unzip content of giac-seed-master folder into cordova project folder to get those structure:
 
