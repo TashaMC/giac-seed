@@ -1,7 +1,7 @@
 giac-seed (grunt-ionic-angular-cordova seed)
 =========
 
-The alternative starter template for ionic framework angular project (http://ionicframework.com/) for Cordova with Grunt automatization.
+The alternative starter template for ionic-angular project (http://ionicframework.com/) for Cordova with Grunt automatization.
 
 Installation
 =========
