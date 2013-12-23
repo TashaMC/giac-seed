@@ -17,18 +17,20 @@ cordova create my-cordova-project com.example.mycordovaproject MyCordovaProject
 npm install -g grunt-cli
 ```
 3. Download and unzip content of giac-seed-master folder into cordova project folder to get those structure:
-
 <pre>
-  giac
-  merges
-  node_modules
-  platforms
-  plugins 
-  www
-  README.md
-  package.json
-  LICENSE
-  Gruntfile.js
+<code>
+my-cordova-project/
+├── giac/
+├── merges/
+├── node_modues/
+├── platforms/
+├── plugins/
+├── www/
+├── README.md
+├── package.json
+├── LICENSE
+└── Gruntfile.js
+</code>
 </pre>
 
 Usage
