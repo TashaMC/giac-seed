@@ -32,5 +32,5 @@ js/lib/angular/** - minimal set of AngularJS files (you can add more if you need
 index.html - HTML source file (entry point). You can observe it in browser
 2. Compile your code by simply typing "grunt" in command line. After that you will get minified code (and sass->css to) in your www folder.
 
-Sorry, have no time - will write it tomorrow
+Sorry, have no time - write it tomorrow
 
