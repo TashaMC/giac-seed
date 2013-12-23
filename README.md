@@ -1,25 +1,33 @@
 giac-seed (grunt-ionic-angular-cordova seed)
 =========
 
-The alternative starter template for ionic framework project (http://ionicframework.com/) with AngularJS for Cordova and Grunt automatization.
+The alternative starter template for ionic framework angular project (http://ionicframework.com/) for Cordova with Grunt automatization.
 
 Installation
 =========
 
-1. Create your cordova app with Cordova CLI.
-2. Install grunt-cli.
+1. Create your cordova app with [Cordova CLI](http://cordova.apache.org/docs/en/3.3.0/guide_cli_index.md.html#The%20Command-Line%20Interface).
+```
+cordova create my-cordova-project com.example.mycordovaproject MyCordovaProject
+```
+2. Install [grunt-cli](http://gruntjs.com/getting-started#installing-the-cli).
+```
+npm install -g grunt-cli
+```
 3. Download and unzip content of giac-seed-master folder into cordova project folder to get those structure:
 
-giac 
-merges 
-node_modules
-platforms 
-plugins 
-www 
-README.md
-package.json
-LICENSE
-Gruntfile.js
+<pre>
+  giac
+  merges
+  node_modules
+  platforms
+  plugins 
+  www
+  README.md
+  package.json
+  LICENSE
+  Gruntfile.js
+</pre>
 
 Usage
 =========
