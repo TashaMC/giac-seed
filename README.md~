@@ -40,11 +40,11 @@ Usage
 ├── fonts/
 ├── img/
 ├── js/
-    ├── lib/       // <!-- set of needed ionic and angular js libraries -->
-    └── app.js     // <!-- place for your JS code -->
+|   ├── lib/       // <!-- set of needed ionic and angular js libraries -->
+|   └── app.js     // <!-- place for your JS code -->
 ├── scss/
-    ├── iconic/
-    └── app.scss   // <!-- place for your SASS code -->
+|   ├── iconic/
+|   └── app.scss   // <!-- place for your SASS code -->
 └── index.html     // <!-- plase for your HTML code -->
 </code></pre>  
 2. Compile your code by simply typing ```grunt``` in command line.

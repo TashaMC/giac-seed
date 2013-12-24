@@ -36,7 +36,7 @@ Usage
 
 1. Write your code in ```giac``` folder. There is a basic project template:
 <pre><code>giac/
-├── css/           
+├── css/
 ├── fonts/
 ├── img/
 ├── js/
