@@ -45,7 +45,7 @@ Usage
 ├── scss/
 |   ├── iconic/
 |   └── app.scss   // <!-- place for your SASS code -->
-└── index.html     // <!-- plase for your HTML code -->
+└── index.html     // <!-- place for your HTML code -->
 </code></pre>  
 2. Compile your code by simply typing ```grunt``` in command line.
 <pre><code>cd my-cordova-project
