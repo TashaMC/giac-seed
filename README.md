@@ -7,7 +7,7 @@ Installation
 =========
 
 1. Create your cordova app with [Cordova CLI](http://cordova.apache.org/docs/en/3.3.0/guide_cli_index.md.html#The%20Command-Line%20Interface)
-<code>cordova create my-cordova-project com.example.mycordovaproject MyCordovaProject</code>
+<pre><code>cordova create my-cordova-project com.example.mycordovaproject MyCordovaProject</code></pre>
 Don't forget paste next lines in ```www/config.xml``` file
 <pre><code>
 <preference name="webviewbounce" value="false" />
