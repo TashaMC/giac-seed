@@ -48,10 +48,8 @@ Usage
 └── index.html     // <!-- plase for your HTML code -->
 </code></pre>  
 2. Compile your code by simply typing ```grunt``` in command line.
-<pre><code>
-cd my-cordova-project
-grunt
-</code></pre>
+<pre><code>cd my-cordova-project
+grunt</code></pre>
 This operation will replace all content of ```my-cordova-project/www``` except of ```confifg.xml``` file with minified application files that compiled from ```giac``` source.
 3. To deploy app onto device use Cordova as usually.
 
@@ -61,7 +59,7 @@ Tips
 1. You can work in "real-time" mode using NetBeans or JetBrains connector navigating ```giac/index.html``` page.
 2. Only minimal set of angular libraries are included. They are ```angular.js```, ```angular-animate.js```, ```angular-route.js```, ```angular-sanatize.js```, ```angular-touch.js```. If you need more ```angular-*.js``` files, put them into ```giac/js/lib/angular``` folder and include into ```giac/index.html``` between ```<!-- GIACSTART --><!-- GIACEND -->``` tags.
 
-TODO
+Todo
 =========
 
 1. Put all needed files (```node_modules``` etc.) into ```giac``` folder.

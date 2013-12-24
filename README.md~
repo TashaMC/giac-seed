@@ -9,11 +9,9 @@ Installation
 1. Create your cordova app with [Cordova CLI](http://cordova.apache.org/docs/en/3.3.0/guide_cli_index.md.html#The%20Command-Line%20Interface)
 <pre><code>cordova create my-cordova-project com.example.mycordovaproject MyCordovaProject</code></pre>
 Don't forget paste next lines in ```www/config.xml``` file
-<pre>```html
-<preference name="webviewbounce" value="false" />
+<pre>```<preference name="webviewbounce" value="false" />
 <preference name="UIWebViewBounce" value="false" />
-<preference name="DisallowOverscroll" value="true" />
-```
+<preference name="DisallowOverscroll" value="true" />```
 </pre>
 2. Install [grunt-cli](http://gruntjs.com/getting-started#installing-the-cli)
 <pre><code>npm install -g grunt-cli</code></pre>
@@ -63,7 +61,7 @@ Tips
 1. You can work in "real-time" mode using NetBeans or JetBrains connector navigating ```giac/index.html``` page.
 2. Only minimal set of angular libraries are included. They are ```angular.js```, ```angular-animate.js```, ```angular-route.js```, ```angular-sanatize.js```, ```angular-touch.js```. If you need more ```angular-*.js``` files, put them into ```giac/js/lib/angular``` folder and include into ```giac/index.html``` between ```<!-- GIACSTART --><!-- GIACEND -->``` tags.
 
-TODO
+Todo
 =========
 
 1. Put all needed files (```node_modules``` etc.) into ```giac``` folder.
