@@ -48,10 +48,8 @@ Usage
 └── index.html     // <!-- plase for your HTML code -->
 </code></pre>  
 2. Compile your code by simply typing ```grunt``` in command line.
-<pre><code>
-cd my-cordova-project
-grunt
-</code></pre>
+<pre><code>cd my-cordova-project
+grunt</code></pre>
 This operation will replace all content of ```my-cordova-project/www``` except of ```confifg.xml``` file with minified application files that compiled from ```giac``` source.
 3. To deploy app onto device use Cordova as usually.
 
