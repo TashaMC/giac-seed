@@ -1,5 +1,4 @@
-giac-seed 
-(grunt-ionic-angular-cordova seed)
+giac-seed (grunt-ionic-angular-cordova seed)
 =========
 
 The alternative starter template for ionic-angular project (http://ionicframework.com/) for Cordova with Grunt automatization.
@@ -8,9 +7,9 @@ Installation
 =========
 
 1. Create your cordova app with [Cordova CLI](http://cordova.apache.org/docs/en/3.3.0/guide_cli_index.md.html#The%20Command-Line%20Interface)
-<pre><code>
+<code>
 cordova create my-cordova-project com.example.mycordovaproject MyCordovaProject
-</code></pre>
+</code>
 Don't forget paste next lines in ```www/config.xml``` file
 <pre><code>
 <preference name="webviewbounce" value="false" />
