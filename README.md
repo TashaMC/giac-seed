@@ -9,11 +9,9 @@ Installation
 1. Create your cordova app with [Cordova CLI](http://cordova.apache.org/docs/en/3.3.0/guide_cli_index.md.html#The%20Command-Line%20Interface)
 <pre><code>cordova create my-cordova-project com.example.mycordovaproject MyCordovaProject</code></pre>
 Don't forget paste next lines in ```www/config.xml``` file
-<pre>```html
-<preference name="webviewbounce" value="false" />
+<pre>```<preference name="webviewbounce" value="false" />
 <preference name="UIWebViewBounce" value="false" />
-<preference name="DisallowOverscroll" value="true" />
-```
+<preference name="DisallowOverscroll" value="true" />```
 </pre>
 2. Install [grunt-cli](http://gruntjs.com/getting-started#installing-the-cli)
 <pre><code>npm install -g grunt-cli</code></pre>
