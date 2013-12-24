@@ -40,7 +40,7 @@ Usage
 ├── fonts/
 ├── img/
 ├── js/
-|   ├── lib/       // <!-- set of needed ionic and angular js libraries -->
+|   ├── lib/       // <!-- set of ionic and angular js libraries -->
 |   └── app.js     // <!-- place for your JS code -->
 ├── scss/
 |   ├── iconic/
